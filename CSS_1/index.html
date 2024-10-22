@@ -1,0 +1,104 @@
+<!doctype html>
+<!--even çift,odd tek-->
+<!--margin ekranın kendi dışındaki elemanlara olan uzaklığı,kutunun ekrana uzaklığı-->
+<!--padding  kutudaki yazının çerçeveye olan uzaklığı //ilgili elemaın içinde olan metinlerin uzaklığı kutu içindeki yazı.-->
+<!--bottom;//top,center-->
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/script.js"></script>
+    <style>
+      h1{
+  color:green;
+
+}
+body{
+  background-color:white;
+}
+div{
+  border:1px solid red;
+  border:1px dashed;
+  border:1px dotted;
+  margin-top: 100px;
+  margin-left:100px;
+  margin-right:200px;
+  margin-bottom:100px;
+  padding:25px;
+  padding-left:25px;
+  padding-top:25px;
+  padding-bottom:25px;
+  padding-right:25px;
+  background-color:gray;
+  
+  
+}
+table{
+  border-collapse:collapse;
+  width:100%;
+  
+}
+table,th,td{
+  border:1px solid black;
+
+}
+th{
+  height:50px;
+  text-align:center;
+}
+td{
+  height:40px;
+  vertical-align:bottom;
+  text-align:center;
+  padding-left:10px;
+}
+
+tr:nth-child(even){
+  background-color:red;
+}
+tr:nth-child(odd){
+  background-color:yellow;
+}
+tr:hover{
+  background-color:gray;
+
+}
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1 style=background-color:black;>Hello Plunker!</h1>
+    <div>
+      Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK Ebru KOÇAK
+    </div>
+    <table>
+      <tr>
+        <th>Adı</th>
+        <th>Soyadı</th>
+        <th>Şehir</th>
+      </tr>
+      <tr>
+        <td>Engin</td>
+        <td>Demiroğ</td>
+        <td>Ankara</td>
+      </tr>
+      <tr>
+        <td>Ebru</td>
+        <td>Koçak</td>
+        <td>İstanbul</td>
+      </tr>
+      <tr>
+        <td>Ebru</td>
+        <td>Koçak</td>
+        <td>İstanbul</td>
+      </tr>
+      <tr>
+        <td>Ebru</td>
+        <td>Koçak</td>
+        <td>İstanbul</td>
+      </tr>
+    </table>
+  </body>
+</html>
